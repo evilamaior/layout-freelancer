@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+}
+
+.container-navigate {
+    background: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+   } 
+
+.container-navigate h1 {
+    margin: auto 1%;   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu li {
+    margin: 0% 5%;
+}
+
+a { 
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #18bc9c;
+}
+
+.container-start-bootstrap {
+    background-color:#18bc9c;
+    width: 100%;
+    padding: 7% 0%;
+    margin-top: 4%;
+    color: white;
+    text-align: center;    
+}
+
+.title-start-bootstrap {
+    font-family: "Montserrat";
+    font-size: 76px;
+    margin-bottom: 25px;
+}
+
+.line {
+    position: relative;
+    width: 250px;
+    height: 4px;
+    background: white;
+    border: none;
+    text-align: center;
+    margin-left: 550px;
+}
+
+.star {
+    font-size: 30px;
+    background-color: #18bc9c;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
+    padding: 10px;
+}
+
+.text-start-bootstrap {
+    font-family: "Lato";
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.container-portfolio { 
+    padding: 7% 0%;
+    -webkit-display: flex;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.container-portfolio h2 {
+    font-family: "Montserrat";
+    font-size: 46px;
+    color: #2c3e50;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.line-portfolio {
+    position: relative;
+    width: 250px;
+    height: 4px;
+    border: none;
+    background:#2c3e50;
+    margin-left: 15px;
+}
+
+.star-portfolio {
+    position: absolute;
+    font-size: 30px;
+    background:white;
+    color: #2c3e50;
+    margin-left: 110px;
+    margin-top: -25px;
+    padding: 10px;
+}
+
+.title-portfolio {
+    margin-bottom: 5%;
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    -webkit-display: flex;
+    justify-content: space-around;
+}
+
+.row img {
+    width: 30%;
+}
+
+.thumb{
+    margin: 15px;
+}
+
+.container-about {
+    color: white;
+    background-color:#18bc9c;
+    width: 100%;
+    padding: 10% 0%;
+    color: white;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.title-about {
+    margin-bottom: 40px;
+}
+
+.container-about h2 {
+    font-family: "Montserrat";
+    font-size: 46px;
+    padding-bottom: 5%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.line-about {
+    position: relative;
+    width: 250px;
+    height: 4px;
+    border: none;
+    background:white;
+    margin-left: 15px;
+}
+
+.star-about {
+    position: absolute;
+    font-size: 30px;
+    background:#18bc9c;
+    color:white;
+    margin-left: 110px;
+    margin-top: -25px;
+    padding: 10px;
+}
+
+.container-about article {
+    font-family: "Lato";
+    font-size: 20px;
+    padding-bottom: 5%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.fist-part {
+    margin-left: 20%;
+    margin-right: 5%;
+    flex-basis: 25%;
+}
+
+.second-part {
+    margin-left: 2%;
+    margin-right: 20%;
+    flex-basis: 25%; 
+}
+
+.container-about button {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: "Lato";
+    color: white;
+    font-size: 20px;
+    padding: 16px 28px;
+}
+
+.container-contact {
+    padding: 7% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-contact h2 {
+    font-family: "Montserrat";
+    font-size: 46px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.line-contact {
+    position: relative;
+    width: 250px;
+    height: 4px;
+    border: none;
+    background:#2c3e50;
+    margin-left: 35px;
+}
+
+.star-contact {
+    position: absolute;
+    font-size: 30px;
+    background:white;
+    color: #2c3e50;
+    margin-left: 140px;
+    margin-top: -25px;
+    padding: 10px;
+}
+
+.title-contact {
+    margin-bottom: 40px;
+}
+
+.form-item {
+    font-family: "Lato";
+    font-size: 22px;  
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+    height: 87px;
+    width: 730px;
+}
+
+.message {
+    height: 192px;
+    width: 730px;  
+}
+
+.container-contact button {
+    display: inline-block;
+    background-color: #18bc9c;
+    border: 1px solid #18bc9c;
+    border-radius: 4px;
+    font-family: "Lato";
+    font-size: 20px;
+    color: white;
+    padding: 16px 28px;
+    margin-top: 20px;
+}
+
+.container-more-infos {
+    background: #2c3e50;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 7% 0%;
+    
+}
+
+.location {
+    width: 33%;
+    text-align: center;
+}
+
+.around-web {
+    width: 33%;
+    text-align: center;
+}
+
+.about-freelancer {
+    width: 33%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.icons {
+    font-family: "Lato";
+    font-size: 20px;  
+    color: white;
+    margin-right: 5px;
+}
+
+.icons i {
+    border: 3px solid white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    
+}
+
+.container-more-infos h3 {
+    font-family: "Montserrat";
+    font-size: 24px;  
+    color: white;
+    padding: 7% 0%;
+}
+
+.container-more-infos p {
+    font-family: "Lato";
+    font-size: 20px;  
+    color: white;
+}
+
+.container-more-infos a {
+    color: #18bc9c;
+}
+
+
+
+.copyright {
+    background: #1a252f;
+    height: 20%;
+    width: 100%;
+    padding: 2% 0%;
+    font-family: "Lato";
+    font-size: 14px;  
+    color: white;
+    text-align: center;
+}
